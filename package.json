@@ -1,8 +1,22 @@
 {
   "name": "iran-license-plate",
   "version": "0.1.0",
-  "private": true,
+  "description": "a general react component for iran license plate",
+  "keywords": "iran-license-plate,react plaque,react car number,car lisence,iran-plaque,Lisence-number,پلاک,پلاک اتومبیل و ماشین,شماره پلاک",
+  "homepage": "-",
+  "bugs": {
+    "url": "https://github.com/MajidAlinejad/Iran-License-Plate/issues",
+    "email": "Alinejad.mj@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Majid Alinejad",
+    "email": "Alinejad.mj@gmail.com",
+    "url": "https://github.com/MajidAlinejad"
+  },
+  "private": false,
   "dependencies": {
+    "@storybook/addon-docs": "^6.5.16",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -17,9 +31,22 @@
     "web-vitals": "^2.1.0"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-webpack5": "^6.5.16",
+    "@storybook/manager-webpack5": "^6.5.16",
+    "@storybook/node-logger": "^6.5.16",
+    "@storybook/preset-create-react-app": "^4.1.2",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
     "autoprefixer": "^10.4.13",
+    "babel-plugin-named-exports-order": "^0.0.2",
     "postcss": "^8.4.20",
-    "tailwindcss": "^3.2.4"
+    "prop-types": "^15.8.1",
+    "tailwindcss": "^3.2.4",
+    "webpack": "^5.75.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,6 +62,16 @@
     "extends": [
       "react-app",
       "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
     ]
   },
   "browserslist": {
