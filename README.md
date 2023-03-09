@@ -19,11 +19,7 @@ npm i iran-license-plate
 
 **🚨Shortcut: you can see all options by visiting : [storybook](https://majidalinejad.github.io/Iran-License-Plate/)🚨**
 
-
-
 ## Usage
-
-<hr>
 
 ```
 import React from "react";
@@ -41,8 +37,6 @@ return (
 
 ## Avalilible Params
 
-<hr>
-
 | property    | type                  | description                                                                                                           |
 | ----------- | --------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | `isLoading` | `boolean`/`undefined` | isshow loading indicator                                                                                              |
@@ -51,7 +45,6 @@ return (
 
 ## Contributors
 
-<hr>
 <a href="https://github.com/MajidAlinejad"  >
 <img style="border-radius:100%" width="40" alt="Majid Alinejad" src="https://avatars.githubusercontent.com/u/25850003?s=400&u=bd3ade163371339aca49cb094759232a416077d4&v=4">
 </a>
@@ -69,7 +62,6 @@ Contributions of any kind welcome!
 
 ## LICENSE
 
-<hr>
 MIT
 
 [all-contributors]: https://github.com/kentcdodds/all-contributors
