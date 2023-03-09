@@ -1,0 +1,9 @@
+.storybook
+node_modules
+public
+src
+storybook-static
+tailwind.config.js
+postcss.config.js
+tsconfig.json
+tsconfig.json
