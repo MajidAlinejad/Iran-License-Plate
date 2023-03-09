@@ -1,7 +1,7 @@
 {
   "name": "iran-license-plate",
   "version": "0.1.0",
-  "description": "a general react component for iran license plate",
+  "description": "A general react component for Iran license plate.",
   "keywords": "iran-license-plate,react plaque,react car number,car lisence,iran-plaque,Lisence-number,پلاک,پلاک اتومبیل و ماشین,شماره پلاک",
   "homepage": "-",
   "bugs": {
@@ -16,22 +16,22 @@
   },
   "private": false,
   "dependencies": {
-    "@storybook/addon-docs": "^6.5.16",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "@types/jest": "^27.0.1",
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "typescript": "^4.4.2",
-    "web-vitals": "^2.1.0"
+    "typescript": "^4.4.2"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.5.16",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.0",
+    "@storybook/addon-docs": "^6.5.16",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-interactions": "^6.5.16",
     "@storybook/addon-links": "^6.5.16",
@@ -49,7 +49,7 @@
     "webpack": "^5.75.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "start-storybook -p 6006 -s public",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",

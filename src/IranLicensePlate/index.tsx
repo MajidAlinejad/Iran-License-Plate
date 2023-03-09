@@ -1,5 +1,4 @@
 import "./assets/font.css";
-import "../styles/inputStyles.css";
 import { ReactComponent as IranSvg } from "./assets/iran.svg";
 import { ReactComponent as DisableSvg } from "./assets/disable.svg";
 import IranFlag from "./assets/Flag.png";
@@ -7,6 +6,7 @@ import React, { HTMLAttributes } from "react";
 import { getPlaqueInfo } from "./helper";
 import FreeImage from "./components/FreeImage";
 import { ReactComponent as SpinnerSvg } from "./assets/spinner.svg";
+import "./License.css";
 
 interface LicenseNumberProp extends HTMLAttributes<HTMLDivElement> {
   serial: string;
@@ -29,9 +29,10 @@ const LicenseNumber = ({
     return (
       <>
         <div
+          dir="rtl"
           className={
-            (isLoading ? " ifp-animate-pulse ifp-duration-100" : "") +
-            " ifp-grid ifp-min-w-[175px] ifp-bg-red-600 ifp-text-white ifp-border-black ifp-border-2 ifp-rounded-lg ifp-relative ifp-overflow-hidden ifp-grid-cols-12 ifp-w-full ifp-aspect-[18/4] ifp-text-[1em] " +
+            (isLoading ? " ip-animate-pulse ip-duration-100" : "") +
+            " ip-grid ip-min-w-[175px] ip-bg-red-600 ip-text-white ip-border-black ip-border-2 ip-rounded-lg ip-relative ip-overflow-hidden ip-grid-cols-12 ip-w-full ip-aspect-[18/4] ip-text-[1em] " +
             className
           }
           style={{
@@ -42,19 +43,19 @@ const LicenseNumber = ({
             ...style,
           }}
         >
-          <div className="ifp-col-span-11 ifp-flex">
-            <div className="ifp-aspect-square   ifp-border-black  ifp-border-l-2 ifp-h-full ifp-grid ifp-text-[1.2em]">
-              <IranSvg className="ifp-w-full ifp-h-full ifp-aspect-[0.5/1] ifp-px-2 ifp-pt-0.5 " />
-              <div className="ifp-grid ifp-aspect-[1.5/1] ifp-h-full ifp-px-1">
-                <p className="ifp-text-[1.2em] ifp-grid ifp-items-center ifp-leading-none ifp-font-semibold  ifp-text-center">
+          <div className="ip-col-span-11 ip-flex">
+            <div className="ip-aspect-square   ip-border-black  ip-border-l-2 ip-h-full ip-grid ip-text-[1.2em]">
+              <IranSvg className="ip-w-full ip-h-full ip-aspect-[0.5/1] ip-px-2 ip-pt-0.5 " />
+              <div className="ip-grid ip-aspect-[1.5/1] ip-h-full ip-px-1">
+                <p className="ip-text-[1.2em] ip-grid ip-items-center ip-leading-none ip-font-semibold  ip-text-center">
                   --
                 </p>
               </div>
             </div>
-            <div className=" ifp-grow ifp-text-[2.2em] ifp-font-semibold ifp-flex ifp-items-center ifp-justify-around">
+            <div className=" ip-grow ip-text-[2.2em] ip-font-semibold ip-flex ip-items-center ip-justify-around">
               <p> --- </p>
-              <div className="ifp-flex ifp-flex-col ifp-h-full ifp-leading-none ifp-justify-center">
-                <p className="ifp-leading-[0.6em]">
+              <div className="ip-flex ip-flex-col ip-h-full ip-leading-none ip-justify-center">
+                <p className="ip-leading-[0.6em]">
                   {isLoading ? (
                     <SpinnerSvg width={"1.2em"} height={"1.2em"} />
                   ) : (
@@ -65,7 +66,7 @@ const LicenseNumber = ({
               <p> -- </p>
             </div>
           </div>
-          <div className="ifp-col-span-1 ifp-p-0.5  ifp-bg-[#003399] ifp-flex ifp-flex-col ifp-text-[1em] ">
+          <div className="ip-col-span-1 ip-p-0.5  ip-bg-[#003399] ip-flex ip-flex-col ip-text-[1em] ">
             <img
               src={IranFlag}
               alt="Flag"
@@ -73,7 +74,7 @@ const LicenseNumber = ({
             />
             <div
               dir="ltr"
-              className="ifp-w-full  ifp-flex ifp-flex-col ifp-text-[0.43em] ifp-items-start ifp-mt-auto ifp-text-white"
+              className="ip-w-full  ip-flex ip-flex-col ip-text-[0.43em] ip-items-start ip-mt-auto ip-text-white"
             >
               <p className="">I.R.</p>
               <p className="">IRAN</p>
@@ -90,8 +91,9 @@ const LicenseNumber = ({
     return (
       <>
         <div
+          dir="rtl"
           className={
-            "ifp-grid ifp-min-w-[175px] ifp-bg-red-600 ifp-text-white ifp-border-black ifp-border-2 ifp-rounded-lg ifp-relative ifp-overflow-hidden ifp-grid-cols-12 ifp-w-full ifp-aspect-[18/4] ifp-text-[1em] " +
+            "ip-grid ip-min-w-[175px] ip-bg-red-600 ip-text-white ip-border-black ip-border-2 ip-rounded-lg ip-relative ip-overflow-hidden ip-grid-cols-12 ip-w-full ip-aspect-[18/4] ip-text-[1em] " +
             className
           }
           style={{
@@ -102,18 +104,18 @@ const LicenseNumber = ({
             ...style,
           }}
         >
-          <div className="ifp-col-span-11 ifp-flex">
-            <div className="ifp-aspect-square   ifp-border-black  ifp-border-l-2 ifp-h-full ifp-grid ifp-text-[1.2em]">
-              <IranSvg className="ifp-w-full ifp-h-full ifp-aspect-[0.5/1] ifp-px-2 ifp-pt-0.5 " />
-              <div className="ifp-grid ifp-aspect-[1.5/1] ifp-h-full ifp-px-1">
-                <p className="ifp-text-[1.2em] ifp-grid ifp-items-center ifp-leading-none ifp-font-semibold  ifp-text-center">
+          <div className="ip-col-span-11 ip-flex">
+            <div className="ip-aspect-square   ip-border-black  ip-border-l-2 ip-h-full ip-grid ip-text-[1.2em]">
+              <IranSvg className="ip-w-full ip-h-full ip-aspect-[0.5/1] ip-px-2 ip-pt-0.5 " />
+              <div className="ip-grid ip-aspect-[1.5/1] ip-h-full ip-px-1">
+                <p className="ip-text-[1.2em] ip-grid ip-items-center ip-leading-none ip-font-semibold  ip-text-center">
                   {matches?.groups?.CityNumber}
                 </p>
 
                 {matches?.groups?.Expire ? (
                   <p
                     style={{ borderColor: info.text }}
-                    className="ifp-text-[0.8em] ifp-leading-none ifp-border-t-2 ifp-pt-1 ifp-font-semibold ifp-text-center"
+                    className="ip-text-[0.8em] ip-leading-none ip-border-t-2 ip-pt-1 ip-font-semibold ip-text-center"
                   >
                     {[
                       matches?.groups?.Expire.slice(0, 2),
@@ -125,11 +127,11 @@ const LicenseNumber = ({
                 )}
               </div>
             </div>
-            <div className=" ifp-grow ifp-text-[2.2em] ifp-font-semibold ifp-flex ifp-items-center ifp-justify-around">
+            <div className=" ip-grow ip-text-[2.2em] ip-font-semibold ip-flex ip-items-center ip-justify-around">
               <p> {matches?.groups?.Section2}</p>
-              <div className="ifp-flex ifp-flex-col ifp-h-full ifp-leading-none ifp-justify-center">
+              <div className="ip-flex ip-flex-col ip-h-full ip-leading-none ip-justify-center">
                 <p
-                  className="ifp-w-full ifp-font-extralight ifp-text-[0.4em]"
+                  className="ip-w-full ip-font-extralight ip-text-[0.4em]"
                   style={{
                     fontFamily: "sans-serif",
                   }}
@@ -137,15 +139,15 @@ const LicenseNumber = ({
                   {info.type === "taxi" ? "TAXI" : ""}
                 </p>
                 {info.type === "handicapped" ? (
-                  <DisableSvg className="ifp-w-[1em] ifp-h-[1em]  " />
+                  <DisableSvg className="ip-w-[1em] ip-h-[1em]  " />
                 ) : (
-                  <p className="ifp-leading-[0.6em]">{info.letter}</p>
+                  <p className="ip-leading-[0.6em]">{info.letter}</p>
                 )}
               </div>
               <p> {matches?.groups?.Section4}</p>
             </div>
           </div>
-          <div className="ifp-col-span-1 ifp-p-0.5  ifp-bg-[#003399] ifp-flex ifp-flex-col ifp-text-[1em] ">
+          <div className="ip-col-span-1 ip-p-0.5  ip-bg-[#003399] ip-flex ip-flex-col ip-text-[1em] ">
             <img
               src={IranFlag}
               alt="Flag"
@@ -153,7 +155,7 @@ const LicenseNumber = ({
             />
             <div
               dir="ltr"
-              className="ifp-w-full  ifp-flex ifp-flex-col ifp-text-[0.43em] ifp-items-start ifp-mt-auto ifp-text-white"
+              className="ip-w-full  ip-flex ip-flex-col ip-text-[0.43em] ip-items-start ip-mt-auto ip-text-white"
             >
               <p className="">I.R.</p>
               <p className="">IRAN</p>
@@ -174,8 +176,9 @@ const LicenseNumber = ({
     return (
       <>
         <div
+          dir="rtl"
           className={
-            "ifp-grid ifp-min-w-[175px]  ifp-border-black ifp-border-2 ifp-rounded-lg ifp-relative ifp-overflow-hidden ifp-grid-cols-12 ifp-w-full  ifp-text-[1em] " +
+            "ip-grid ip-min-w-[175px]  ip-border-black ip-border-2 ip-rounded-lg ip-relative ip-overflow-hidden ip-grid-cols-12 ip-w-full  ip-text-[1em] " +
             className
           }
           style={{
@@ -185,43 +188,43 @@ const LicenseNumber = ({
             ...style,
           }}
         >
-          <div className="ifp-grid ifp-aspect-[10/5] ifp-w-full ifp-col-span-9">
+          <div className="ip-grid ip-aspect-[10/5] ip-w-full ip-col-span-9">
             <div
-              className=" ifp-grid ifp-grid-cols-12 ifp-aspect-[10/4] ifp-tracking-widest "
+              className=" ip-grid ip-grid-cols-12 ip-aspect-[10/4] ip-tracking-widest "
               style={{
                 fontFamily: "IranSansNumber",
               }}
             >
-              <div className="ifp-col-span-5   ifp-border-black  ifp-border-l-2 ifp-h-full ifp-grid ifp-text-[1.2em]">
-                <div className="ifp-grid  ifp-h-full ifp-text-[1.7em]">
-                  <p className="ifp-text-[1.2em] ifp-grid ifp-items-center ifp-leading-none ifp-font-semibold  ifp-text-center">
+              <div className="ip-col-span-5   ip-border-black  ip-border-l-2 ip-h-full ip-grid ip-text-[1.2em]">
+                <div className="ip-grid  ip-h-full ip-text-[1.7em]">
+                  <p className="ip-text-[1.2em] ip-grid ip-items-center ip-leading-none ip-font-semibold  ip-text-center">
                     {matches?.groups?.CityNumber}
                   </p>
                 </div>
               </div>
-              <div className="ifp-col-span-7 ifp-grow ifp-text-[2.5em] ifp-font-semibold ifp-flex ifp-items-center ifp-justify-around">
+              <div className="ip-col-span-7 ip-grow ip-text-[2.5em] ip-font-semibold ip-flex ip-items-center ip-justify-around">
                 <p> {matches?.groups?.Section2}</p>
               </div>
             </div>
 
-            <div className=" ifp-grid ifp-grid-cols-12 ifp-aspect-[11/2]  ifp-border-black  ifp-border-t-2">
-              <div className="ifp-col-span-5   ifp-border-black  ifp-border-l-2 ifp-h-full ifp-grid ifp-text-[1.2em]">
-                <div className="ifp-grid  ifp-h-full ifp-text-[1.4em]">
-                  <p className="ifp-text-[1.2em] ifp-grid ifp-items-center ifp-leading-none ifp-font-semibold  ifp-text-center">
+            <div className=" ip-grid ip-grid-cols-12 ip-aspect-[11/2]  ip-border-black  ip-border-t-2">
+              <div className="ip-col-span-5   ip-border-black  ip-border-l-2 ip-h-full ip-grid ip-text-[1.2em]">
+                <div className="ip-grid  ip-h-full ip-text-[1.4em]">
+                  <p className="ip-text-[1.2em] ip-grid ip-items-center ip-leading-none ip-font-semibold  ip-text-center">
                     {matches?.groups?.CityNumber}
                   </p>
                 </div>
               </div>
-              <div className="ifp-col-span-7 ifp-grow ifp-text-[2.2em] ifp-font-semibold ifp-flex ifp-items-center ifp-justify-around">
+              <div className="ip-col-span-7 ip-grow ip-text-[2.2em] ip-font-semibold ip-flex ip-items-center ip-justify-around">
                 <p> {matches?.groups?.Section2}</p>
               </div>
             </div>
           </div>
-          <div className="ifp-col-span-3 ifp-p-0.5  ifp-bg-[#003399] ifp-flex ifp-flex-col ifp-text-[1em] ">
-            <div className="ifp-flex ifp-w-full ifp-gap-2">
+          <div className="ip-col-span-3 ip-p-0.5  ip-bg-[#003399] ip-flex ip-flex-col ip-text-[1em] ">
+            <div className="ip-flex ip-w-full ip-gap-2">
               <div
                 dir="ltr"
-                className="ifp-w-full  ifp-flex ifp-flex-col ifp-text-[0.43em] ifp-items-start ifp-mt-auto ifp-text-white"
+                className="ip-w-full  ip-flex ip-flex-col ip-text-[0.43em] ip-items-start ip-mt-auto ip-text-white"
               >
                 <p className="">I.R.</p>
                 <p className="">IRAN</p>
@@ -229,17 +232,17 @@ const LicenseNumber = ({
               <img
                 src={IranFlag}
                 alt="Flag"
-                className="p-[0.1rem] pt-[0.2rem] ifp-flex ifp-w-1/2"
+                className="p-[0.1rem] pt-[0.2rem] ip-flex ip-w-1/2"
               />
             </div>
-            <div className="ifp-w-full  ifp-h-full ifp-flex ifp-items-center ifp-justify-center ifp-p-4">
+            <div className="ip-w-full  ip-h-full ip-flex ip-items-center ip-justify-center ip-p-4">
               <FreeImage region={matches?.groups?.region as any} />
             </div>
             <div
               dir="ltr"
-              className="ifp-w-full ifp-text-center ifp-text-[1em] ifp-items-center ifp-mt-auto ifp-text-white"
+              className="ip-w-full ip-text-center ip-text-[1em] ip-items-center ip-mt-auto ip-text-white"
             >
-              <p className="ifp-text-center">
+              <p className="ip-text-center">
                 {matches?.groups?.region === "CHFZ"
                   ? "CH.F.Z"
                   : matches?.groups?.region}

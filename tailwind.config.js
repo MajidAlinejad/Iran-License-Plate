@@ -1,10 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   prefix: "ip-",
-  content: [
-    "./src/**/*.{html,js,tsx}",
-    "./node_modules/tw-elements/dist/js/**/*.js",
-  ],
+  content: ["./src/**/*.{html,js,tsx}"],
   theme: {
     extend: {
       gridTemplateRows: {
