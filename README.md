@@ -40,3 +40,14 @@ return (
 | `isLoading` | `boolean`/`undefined` | isshow loading indicator                                                                                              |
 | `isUnknown` | `boolean`/`undefined` | preserve unknown situation                                                                                            |
 | `serial`    | `string`              | the serial number of license plate for all options please visit : https://majidalinejad.github.io/Iran-License-Plate/ |
+
+## Contributors
+
+<img style="border-radius:100%;width:70px;" src="https://avatars.githubusercontent.com/u/25850003?s=400&u=bd3ade163371339aca49cb094759232a416077d4&v=4">
+
+This project follows the [all-contributors][all-contributors] specification.
+Contributions of any kind welcome!
+
+## LICENSE
+
+MIT
