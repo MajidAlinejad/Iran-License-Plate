@@ -25,13 +25,7 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.5.16",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.0",
     "@storybook/addon-docs": "^6.5.16",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "@types/jest": "^27.0.1",
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-interactions": "^6.5.16",
     "@storybook/addon-links": "^6.5.16",
@@ -41,11 +35,18 @@
     "@storybook/preset-create-react-app": "^4.1.2",
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
     "autoprefixer": "^10.4.13",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.20",
     "prop-types": "^15.8.1",
+    "react-scripts": "5.0.1",
     "tailwindcss": "^3.2.4",
+    "web-vitals": "^2.1.0",
     "webpack": "^5.75.0"
   },
   "scripts": {
@@ -56,7 +57,9 @@
     "build-storybook": "build-storybook -s public",
     "prebuild": "npx tailwindcss -o dist/IranLicensePlate/License.css --minify",
     "build": "npx -p typescript tsc -p .",
-    "postbuild": "cp --recursive ./src/IranLicensePlate/assets ./dist/IranLicensePlate/assets "
+    "postbuild": "cp --recursive ./src/IranLicensePlate/assets ./dist/IranLicensePlate/assets ",
+    "predeploy": "build-storybook -s public",
+    "deploy": "gh-pages -d storybook-static"
   },
   "eslintConfig": {
     "extends": [
