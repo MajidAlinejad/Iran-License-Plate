@@ -1,20 +1,23 @@
-# Getting Started with Create React App
+# Iran Lisence Plate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+<img src="https://raw.githubusercontent.com/MajidAlinejad/Iran-License-Plate/main/public/Screenshot.png" alt="downshift logo" title="downshift logo" width="300">
+</h1>
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+This module is distributed via npm which is bundled with node and should be installed as one of your project's `dependencies`:
 
-### `yarn start`
+```
+npm i iran-license-plate
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> This package also depends on `react`. Please make sure you have it installed
+> as well.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Note:** by default, React will be in development mode. The development version includes extra warnings about common mistakes, whereas the production version includes extra performance optimizations and strips all error messages. Don't forget to use the [production build](https://reactjs.org/docs/optimizing-performance.html#use-the-production-build) when deploying your application.
 
-how to use
+## Usage
 
 ```
 import React from "react";
