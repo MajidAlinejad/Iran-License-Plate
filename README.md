@@ -15,7 +15,7 @@ npm i iran-license-plate
 > This package also depends on `react`. Please make sure you have it installed
 > as well.
 
-**Note:** by default, React will be in development mode. The development version includes extra warnings about common mistakes, whereas the production version includes extra performance optimizations and strips all error messages. Don't forget to use the [production build](https://reactjs.org/docs/optimizing-performance.html#use-the-production-build) when deploying your application.
+**🚨Shortcut: you can see all options by visiting : [storybook](https://majidalinejad.github.io/Iran-License-Plate/) 🚨**
 
 ## Usage
 
@@ -32,3 +32,11 @@ return (
 }
 
 ```
+
+## Avalilible Params
+
+| property    | type                  | description                                                                                                           |
+| ----------- | --------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| `isLoading` | `boolean`/`undefined` | isshow loading indicator                                                                                              |
+| `isUnknown` | `boolean`/`undefined` | preserve unknown situation                                                                                            |
+| `serial`    | `string`              | the serial number of license plate for all options please visit : https://majidalinejad.github.io/Iran-License-Plate/ |
