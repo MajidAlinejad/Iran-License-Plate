@@ -4,6 +4,7 @@
   "description": "A general react component for Iran license plate.",
   "keywords": "iran-license-plate,react plaque,react car number,car lisence,iran-plaque,Lisence-number,پلاک,پلاک اتومبیل و ماشین,شماره پلاک",
   "homepage": "https://majidalinejad.github.io/Iran-License-Plate/",
+  "repository": "https://github.com/MajidAlinejad/Iran-License-Plate/",
   "bugs": {
     "url": "https://github.com/MajidAlinejad/Iran-License-Plate/issues",
     "email": "Alinejad.mj@gmail.com"
