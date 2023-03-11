@@ -37,7 +37,7 @@ npm i iran-license-plate
 
 ```
 import React from "react";
-import IranLicensePlate from "iran-license-plate/dist/IranLicensePlate";
+import IranLicensePlate from "iran-license-plate";
 
 function App() {
 return (
