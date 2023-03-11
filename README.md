@@ -9,11 +9,12 @@
 <img src="https://raw.githubusercontent.com/MajidAlinejad/Iran-License-Plate/main/public/Screenshot.png" alt="Iran License Plate" title="Iran License Plate" width="300">
 </div>
 
-Iran Lisence Plate is a React component to display Iran car plaque appropriately depending on the serial number.
+Iran Lisence Plate is a ` React component` based on `Typescript` to display Iran car plaque appropriately depending on the serial number.
 
 ## Features
 
-- ⚛ React Component
+- ⚛ React Component.
+- ☑ Typescript.
 - 👌 Validating license serial.
 - 🎈 Include free city license plate.
 - 📐 Responsive and mobile friendly.

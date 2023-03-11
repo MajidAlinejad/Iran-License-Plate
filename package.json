@@ -78,6 +78,8 @@
       }
     ]
   },
+  "main": "dist/IranLicensePlate/index.js",
+  "types": "dist/IranLicensePlate/index.d.ts",
   "browserslist": {
     "production": [
       ">0.2%",
