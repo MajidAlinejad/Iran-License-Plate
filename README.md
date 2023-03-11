@@ -1,8 +1,23 @@
 # Iran Lisence Plate
 
-<h1 align="center">
+![npm](https://img.shields.io/npm/dt/iran-license-plate)
+![GitHub issues](https://img.shields.io/github/issues/MajidAlinejad/Iran-License-Plate)
+![npm](https://img.shields.io/npm/v/iran-license-plate)
+![GitHub Repo stars](https://img.shields.io/github/stars/MajidAlinejad/Iran-License-Plate?style=social)
+
+<div align="center">
 <img src="https://raw.githubusercontent.com/MajidAlinejad/Iran-License-Plate/main/public/Screenshot.png" alt="Iran License Plate" title="Iran License Plate" width="300">
-</h1>
+</div>
+
+### Iran Lisence Plate is a React component to show Iran car plaque appropriately depending on the serial number.
+
+## Features
+
+- ⚛ React Component
+- 👌 Validating license serial.
+- 🎈 Include free city license plate.
+- 📐 Responsive and mobile friendly.
+- 🌈 Colorize plate.
 
 ## Installation
 
