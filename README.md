@@ -58,6 +58,10 @@ Contributions of any kind welcome!
 
 <br>
 
+## WIKI PAGE
+
+for more information please visit [wiki page]("https://github.com/MajidAlinejad/Iran-License-Plate/wiki")
+
 ## LICENSE
 
 MIT
