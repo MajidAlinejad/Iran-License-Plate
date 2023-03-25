@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <img src="./images/banner.gif" alt="Iran License Plate" title="Iran License Plate"  width="300">
-<div>
+</div>
 <br />
 <br />
 
