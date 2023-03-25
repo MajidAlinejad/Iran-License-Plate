@@ -10,8 +10,8 @@
 
 <br />
 <div align="center">
-<img src="https://raw.githubusercontent.com/MajidAlinejad/Iran-License-Plate/main/public/Screenshot.png" alt="Iran License Plate" title="Iran License Plate" width="300">
-</div>
+  <img src="./images/banner.gif" alt="Iran License Plate" title="Iran License Plate"  width="300">
+<div>
 <br />
 <br />
 
