@@ -3,13 +3,19 @@
 ![npm](https://img.shields.io/npm/dt/iran-license-plate)
 ![GitHub issues](https://img.shields.io/github/issues/MajidAlinejad/Iran-License-Plate)
 ![npm](https://img.shields.io/npm/v/iran-license-plate)
+[![GitHub contributors](https://img.shields.io/github/contributors/MajidAlinejad/Iran-License-Plate.svg)](https://GitHub.com/MajidAlinejad/Iran-License-Plate/contributors/)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/MajidAlinejad/Iran-License-Plate/blob/master/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](https://github.com/MajidAlinejad/Iran-License-Plate/compare)
 ![GitHub Repo stars](https://img.shields.io/github/stars/MajidAlinejad/Iran-License-Plate?style=social)
 
+<br />
 <div align="center">
-<img src="https://raw.githubusercontent.com/MajidAlinejad/Iran-License-Plate/main/public/Screenshot.png" alt="Iran License Plate" title="Iran License Plate" width="300">
+  <img src="./images/banner.gif" alt="Iran License Plate" title="Iran License Plate"  width="300">
 </div>
+<br />
+<br />
 
-Iran Lisence Plate is a ` React component` based on `Typescript` to display Iran car plaque appropriately depending on the serial number.
+Iran Lisence Plate is a `React Component` based on `Typescript` to display Iran car plaque appropriately depending on the serial number.
 
 ## Features
 
@@ -35,18 +41,16 @@ npm i iran-license-plate
 
 ## Usage
 
-```
-import React from "react";
+```JSX
 import IranLicensePlate from "iran-license-plate";
 
 function App() {
-return (
-    <div>
-        <IranLicensePlate serial="IR15-546T55" />
-    </div>
-);
+    return (
+        <div>
+            <IranLicensePlate serial="IR15-546T55" />
+        </div>
+    );
 }
-
 ```
 
 ## Avalilible Params
