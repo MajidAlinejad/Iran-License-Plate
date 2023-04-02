@@ -46,7 +46,7 @@ const LicenseNumber = ({
           <div className="ip-col-span-11 ip-flex ip-min-h-0">
             <div className="ip-aspect-square   ip-border-black  ip-border-l-2 ip-h-full ip-grid ip-text-[1.2em]">
               <IranSvg className="ip-w-full ip-h-full ip-aspect-[0.5/1] ip-px-2 ip-pt-0.5 " />
-              <div className="ip-grid ip-aspect-[1.5/1] ip-h-full ip-px-1">
+              <div className="ip-grid ip-aspect-[1.5/1] ip-h-fit ip-px-1">
                 <p className="ip-text-[1.2em] ip-grid ip-items-center ip-leading-none ip-font-semibold  ip-text-center">
                   --
                 </p>
@@ -107,7 +107,7 @@ const LicenseNumber = ({
           <div className="ip-col-span-11 ip-flex ip-min-h-0">
             <div className="ip-aspect-square   ip-border-black  ip-border-l-2 ip-h-full ip-grid ip-text-[1.2em]">
               <IranSvg className="ip-w-full ip-h-full ip-aspect-[0.5/1] ip-px-2 ip-pt-0.5 " />
-              <div className="ip-grid ip-aspect-[1.5/1] ip-h-full ip-px-1">
+              <div className="ip-grid ip-aspect-[1.5/1] ip-h-fit ip-px-1">
                 <p className="ip-text-[1.2em] ip-grid ip-items-center ip-leading-none ip-font-semibold  ip-text-center">
                   {matches?.groups?.CityNumber}
                 </p>
