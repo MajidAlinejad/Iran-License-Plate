@@ -573,8 +573,16 @@ video {
 .ip-h-\[1em\] {
   height: 1em;
 }
+.ip-h-fit {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
 .ip-h-full {
   height: 100%;
+}
+.ip-min-h-0 {
+  min-height: 0px;
 }
 .ip-w-1\/2 {
   width: 50%;
@@ -735,4 +743,4 @@ video {
 }
 
 
-/*# sourceMappingURL=main.fa91973f.css.map*/
+/*# sourceMappingURL=main.0cc082ec.css.map*/
