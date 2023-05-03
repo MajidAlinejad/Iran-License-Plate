@@ -13,7 +13,7 @@ interface LicenseNumberProp extends HTMLAttributes<HTMLDivElement> {
   isLoading?: boolean;
   isUnknown?: boolean;
 }
-const LicenseNumber = ({
+export const LicenseNumber = ({
   serial,
   className,
   style,
