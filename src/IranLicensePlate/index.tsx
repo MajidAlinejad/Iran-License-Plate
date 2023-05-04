@@ -1,12 +1,12 @@
 import "./assets/font.css";
-import { ReactComponent as IranSvg } from "./assets/iran.svg";
+import { IranSvg } from "./components/IranSvg";
 import disableSvg from "./assets/disable.svg";
 import IranFlag from "./assets/Flag.png";
 import React, { HTMLAttributes } from "react";
 import { getPlaqueInfo } from "./helper";
 import FreeImage from "./components/FreeImage";
-import { ReactComponent as SpinnerSvg } from "./assets/spinner.svg";
 import "./License.css";
+import { SpinnerSvg } from "./components/Spinner";
 
 interface LicenseNumberProp extends HTMLAttributes<HTMLDivElement> {
   serial: string;
