@@ -1,11 +1,10 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "target": "es2016",
+    "target": "ES5",
     "jsx": "react-jsx",
-    "module": "commonjs",
+    "module": "ESNext",
     "rootDir": "src",
-    "resolveJsonModule": true,
     "allowJs": true,
     "declaration": true,
     "declarationMap": true,
