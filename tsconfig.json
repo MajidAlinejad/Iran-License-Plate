@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "target": "ES5",
+    "target": "ESNext",
     "jsx": "react-jsx",
-    "module": "CommonJS",
+    "module": "ES6",
     "rootDir": "src",
     "allowJs": true,
     "declaration": true,

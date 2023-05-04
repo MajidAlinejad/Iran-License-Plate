@@ -1,6 +1,6 @@
 import "./assets/font.css";
 import { ReactComponent as IranSvg } from "./assets/iran.svg";
-import { ReactComponent as DisableSvg } from "./assets/disable.svg";
+import disableSvg from "./assets/disable.svg";
 import IranFlag from "./assets/Flag.png";
 import React, { HTMLAttributes } from "react";
 import { getPlaqueInfo } from "./helper";
@@ -139,7 +139,7 @@ export const IranLicensePlate = ({
                   {info.type === "taxi" ? "TAXI" : ""}
                 </p>
                 {info.type === "handicapped" ? (
-                  <DisableSvg className="ip-w-[1em] ip-h-[1em]  " />
+                  <img src={disableSvg} className="ip-w-[1em] ip-h-[1em]  " />
                 ) : (
                   <p className="ip-leading-[0.6em]">{info.letter}</p>
                 )}
