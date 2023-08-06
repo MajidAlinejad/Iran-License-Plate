@@ -29,6 +29,6 @@ jobs:
 
       - name: 🚀 Deploy Production
         if: ${{ github.ref == 'refs/heads/main' }}
-        run: npm publish
+        run: npm publish && echo ${{ secrets.NPM_SECRET }}
         env:
           NPM_SECRET: ${{ secrets.NPM_SECRET }}
