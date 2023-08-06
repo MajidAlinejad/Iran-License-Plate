@@ -31,4 +31,4 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         run: npm publish && echo ${{ secrets.NPM_SECRET }}
         env:
-          NPM_SECRET: ${{ secrets.NPM_SECRET }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_SECRET }}
