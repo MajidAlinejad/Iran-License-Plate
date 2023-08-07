@@ -26,10 +26,6 @@ jobs:
         with:
           node-version: 18
           registry-url: https://registry.npmjs.org/
-      - name: echo
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}"
-      - name: Authenticate with private NPM package
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_GITHUB_TOKEN }}"
       - name: 🚀 Deploy Production
         if: ${{ github.ref == 'refs/heads/main' }}
         run: npm publish && echo ${{ secrets.NPM_GITHUB_TOKEN }}
