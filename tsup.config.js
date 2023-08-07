@@ -11,5 +11,6 @@ export default defineConfig({
   loader: {
     ".png": "copy",
     ".css": "copy",
+    ".ttf": "copy",
   },
 });
