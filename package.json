@@ -67,7 +67,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "prebuild": "npx tailwindcss -o dist/IranLicensePlate/License.css --minify",
+    "prebuild": "npx tailwindcss -o dist/IranLicensePlate/style.css --minify",
     "build": "npx -p typescript tsc -p .",
     "postbuild": "cp --recursive ./src/IranLicensePlate/assets ./dist/IranLicensePlate ",
     "predeploy": "build-storybook -s public",

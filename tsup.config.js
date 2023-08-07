@@ -9,7 +9,6 @@ export default defineConfig({
   dts: true,
   outDir: "dist/IranLicensePlate",
   format: ["cjs", "esm"],
-  onSuccess: () => {},
   loader: {
     ".png": "base64",
     ".css": "css",
