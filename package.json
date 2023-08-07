@@ -90,7 +90,7 @@
       }
     ]
   },
-  "main": "dist/cjs/index.js",
+  "main": "dist/index.js",
   "module": "dist/esm/index.js",
   "browserslist": {
     "production": [
