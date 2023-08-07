@@ -29,9 +29,9 @@ jobs:
       - name: echo
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}"
       - name: Authenticate with private NPM package
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_GITHUB_TOKEN }}"
       - name: 🚀 Deploy Production
         if: ${{ github.ref == 'refs/heads/main' }}
-        run: npm publish && echo ${{ secrets.NPM_SECRET }}
+        run: npm publish && echo ${{ secrets.NPM_GITHUB_TOKEN }}
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_SECRET }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_GITHUB_TOKEN }}
