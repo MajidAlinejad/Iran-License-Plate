@@ -9,7 +9,7 @@ import "../License.css";
 import { SpinnerSvg } from "./components/Spinner";
 
 interface LicenseNumberProp extends HTMLAttributes<HTMLDivElement> {
-  serial: string;
+  serial?: string;
   isLoading?: boolean;
   isUnknown?: boolean;
 }
@@ -25,7 +25,7 @@ export const IranLicensePlate = ({
 
   const iranFreeRGX = /(?<region>\w*)(?<CityNumber>\d{2})-(?<Section2>\d{5})/;
 
-  if (isUnknown || isLoading) {
+  if (!serial || isUnknown || isLoading) {
     return (
       <>
         <div
