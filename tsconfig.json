@@ -11,6 +11,7 @@
     "sourceMap": true,
     "outDir": "dist",
     "types": ["node"],
+    "rootDirs": ["dist"],
     "isolatedModules": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,

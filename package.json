@@ -71,7 +71,7 @@
     "build": "npx -p typescript tsc -p .",
     "postbuild": "cp --recursive ./src/IranLicensePlate/assets ./dist/IranLicensePlate ",
     "predeploy": "build-storybook -s public",
-    "tsup": "tsup --format esm,cjs,iife --legacy-output",
+    "tsup": "tsup --format esm,cjs,iife --dts src/IranLicensePlate/index.tsx ",
     "deploy": "gh-pages -d storybook-static"
   },
   "eslintConfig": {
