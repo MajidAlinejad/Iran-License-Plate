@@ -57,6 +57,7 @@
     "prop-types": "^15.8.1",
     "react-scripts": "5.0.1",
     "tailwindcss": "^3.2.4",
+    "tsup": "^7.2.0",
     "web-vitals": "^2.1.0",
     "webpack": "^5.75.0"
   },
@@ -70,6 +71,7 @@
     "build": "npx -p typescript tsc -p .",
     "postbuild": "cp --recursive ./src/IranLicensePlate/assets ./dist/IranLicensePlate ",
     "predeploy": "build-storybook -s public",
+    "tsup": "tsup --format esm,cjs,iife --legacy-output",
     "deploy": "gh-pages -d storybook-static"
   },
   "eslintConfig": {
@@ -88,8 +90,8 @@
       }
     ]
   },
-  "main": "dist/IranLicensePlate/index.js",
-  "types": "dist/IranLicensePlate/index.d.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "browserslist": {
     "production": [
       ">0.2%",

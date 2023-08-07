@@ -18,5 +18,5 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "include": ["src/IranLicensePlate"]
+  "include": ["src/IranLicensePlate", "src/global.d.ts"]
 }
