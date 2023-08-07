@@ -9,7 +9,7 @@ export default defineConfig({
   dts: true,
   format: ["cjs", "esm"],
   loader: {
-    ".png": "file",
+    ".png": "copy",
     ".css": "css",
   },
 });
