@@ -8,3 +8,4 @@ postcss.config.js
 tsconfig.json
 tsconfig.json
 .github
+tsup.config.js
