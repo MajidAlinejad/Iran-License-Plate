@@ -3,7 +3,7 @@
     "baseUrl": ".",
     "target": "ESNext",
     "jsx": "react-jsx",
-    "module": "ES6",
+    "module": "CommonJS",
     "rootDir": "src",
     "allowJs": true,
     "declaration": true,
