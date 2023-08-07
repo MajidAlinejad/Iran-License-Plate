@@ -90,8 +90,8 @@
       }
     ]
   },
-  "main": "dist/IranLicensePlate/index.cjs.js",
-  "module": "dist/IranLicensePlate/index.esm.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "browserslist": {
     "production": [
       ">0.2%",

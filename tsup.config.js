@@ -7,10 +7,9 @@ export default defineConfig({
   clean: true,
   shims: true,
   dts: true,
-  outDir: "dist/IranLicensePlate",
   format: ["cjs", "esm"],
   loader: {
-    ".png": "base64",
+    ".png": "file",
     ".css": "css",
   },
 });
