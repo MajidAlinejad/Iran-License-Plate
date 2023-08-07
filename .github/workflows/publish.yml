@@ -28,6 +28,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: 🚀 Deploy Production
         if: ${{ github.ref == 'refs/heads/main' }}
-        run: yarn build && npm publish && echo ${{ secrets.NPM_GITHUB_TOKEN }}
+        run: yarn install && yarn build && npm publish && echo ${{ secrets.NPM_GITHUB_TOKEN }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_GITHUB_TOKEN }}
