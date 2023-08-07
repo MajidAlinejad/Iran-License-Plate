@@ -10,6 +10,6 @@ export default defineConfig({
   format: ["cjs", "esm"],
   loader: {
     ".png": "copy",
-    ".css": "css",
+    ".css": "copy",
   },
 });
