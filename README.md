@@ -66,6 +66,12 @@ function App() {
 <a href="https://github.com/MajidAlinejad"  >
 <img style="border-radius:100%" width="40" alt="Majid Alinejad" src="https://avatars.githubusercontent.com/u/25850003?s=400&u=bd3ade163371339aca49cb094759232a416077d4&v=4">
 </a>
+<a href="https://github.com/farhadrezvani"  >
+<img style="border-radius:100%" width="40" alt="Farhad Rezvani" src="https://avatars.githubusercontent.com/u/10855997?v=4">
+</a>
+<a href="https://github.com/moh3n9595"  >
+<img style="border-radius:100%" width="40" alt="Mohsen" src="https://avatars.githubusercontent.com/u/20948388?v=4">
+</a>
 
 This project follows the all contributors specification.
 Contributions of any kind welcome!
@@ -75,8 +81,6 @@ Contributions of any kind welcome!
 **_Documented with :_**
 <br>
 <img width="150" src="https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png">
-<img width="150" src="https://avatars.githubusercontent.com/u/10855997?s=96&v=4">
-<img width="150" src="https://avatars.githubusercontent.com/u/20948388?s=64&v=4>
 
 <br>
 
