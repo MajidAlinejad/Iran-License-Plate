@@ -75,6 +75,8 @@ Contributions of any kind welcome!
 **_Documented with :_**
 <br>
 <img width="150" src="https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png">
+<img width="150" src="https://avatars.githubusercontent.com/u/10855997?s=96&v=4">
+<img width="150" src="https://avatars.githubusercontent.com/u/20948388?s=64&v=4>
 
 <br>
 
