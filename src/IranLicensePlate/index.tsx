@@ -1,11 +1,9 @@
-import "./assets/font.css";
 import { IranSvg } from "./components/IranSvg";
 import disableSvg from "./assets/disable.svg";
 import IranFlag from "./assets/Flag.png";
 import React, { HTMLAttributes } from "react";
 import { getPlaqueInfo } from "./helper";
 import FreeImage from "./components/FreeImage";
-import "../License.css";
 import { SpinnerSvg } from "./components/Spinner";
 
 interface LicenseNumberProp extends HTMLAttributes<HTMLDivElement> {
