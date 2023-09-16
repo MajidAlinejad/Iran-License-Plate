@@ -43,6 +43,7 @@ npm i iran-license-plate
 
 ```JSX
 import IranLicensePlate from "iran-license-plate";
+import "iran-license-plate/dist/License.css";
 
 function App() {
     return (
