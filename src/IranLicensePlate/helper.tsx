@@ -151,6 +151,7 @@ export function getPlaqueInfo(letter?: string): PlaqueInfo {
     n: () => personal("ن"), // ن
     v: () => personal("و"), // و
     h: () => personal("هـ"), // ه
+    y: () => personal("ی"), // ی 
     //
     H: () => handicapped(), // ژ
     //
