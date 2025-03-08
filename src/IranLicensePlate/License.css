@@ -1,8 +1,4 @@
-/* @import "./assets/font.css"; */
-@font-face {
-    font-family: "IranSansNumber";
-    src: url("./assets/font.ttf");
-}
+@import "./assets/font.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
